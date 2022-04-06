@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+hr {
+    height: 0.01;
+    background-color: #FFD700;
+    border: none;
+}
+
+header {
+    width: 100%;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
