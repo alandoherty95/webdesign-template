@@ -18,6 +18,20 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+.nav-pills .nav-link {
+    color: #000000;
+    margin: 1px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #FFD700;
+    color: #000000;
+}
+
+mark {
+    background-color: #FFD700;
+}
+
 .quote {
     background-color: #000000;
     color: #ffffff;
