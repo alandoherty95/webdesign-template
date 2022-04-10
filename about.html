@@ -12,6 +12,11 @@
     <link href="/style.css" rel="stylesheet" type="text/css">
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Favicon.io Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <title>Hurton Fitness | About</title>
 </head>
@@ -57,91 +62,146 @@
                 <p class="lead">Iain is a fitness instructor and personal trainer inspiring people to live a healthy lifestyle!</p>
                 <p class="lead">Iain also enjoys giving swimming lessons to young children and older people who would like to become more confident in the water.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a href="/about.html" target="_blank" class="btn btn-lg btn-warning" title="Go to About"><i class="bi bi-info-circle"></i> More Info</a>
-                    <a href="https://www.instagram.com/hurtonsfitness/?hl=en" target="_blank" class="btn btn-lg btn-outline-secondary" title="Message Iain on Instgram"><i class="bi bi-instagram"></i> Message Iain Now</a>
+                    <a href="/about.html" class="btn btn-lg btn-warning" title="Go to About"><i class="bi bi-info-circle"></i> More Info</a>
+                    <a href="https://www.instagram.com/hurtonsfitness/?hl=en" target="_blank" class="btn btn-lg btn-outline-secondary" title="Message Iain on Instagram"><i class="bi bi-instagram"></i> Message Iain</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Quote Section -->
-    <section class="quote">
-        <div class="container my-5 py-5">
-            <h3>If it's not Hurton, it's not working!</h3>
+    <!-- Bootstrap Quote Card -->
+    <section class="container mt-4">
+        <h3>Client Testimonials</h3>
+        <p class="lead">Read reviews from people who have worked closely with Iain.</p>
+        <div class="row">
+            <div class="col-lg-6 card">
+                <div class="card-header">
+                    Personal Training
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote">
+                        <p>Couldn't recommend Iain enough. I did personal training and classes with him. Extremely motivational and always pushed people to do their best. He does fantastic classes and great music. Best personal trainer by far and cannot wait to get back to his classes.</p>
+                        <footer class="blockquote-footer mt-1">Breda, aged 24</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="col-lg-6 card">
+                <div class="card-header">
+                    Aqua Aerobics
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote">
+                        <p>I did aqua aerobics twice a week with Iain at Castletroy Park Hotel, all the women loved when Iain was doing the class. His class was great fun, motivational and effective. His wonderful playlists got us moving, old ladies forgot their aches and pains as they exercised to his great music. He cheered everyone up, always had a smile, and his energy and dance moves were a joy to watch.</p>
+                        <footer class="blockquote-footer mt-1">Mary, aged 72</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 card">
+                <div class="card-header">
+                    Swimming Lessons
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote">
+                        <p>Iain was a very professional, courteous and patient swimming instructor. He had a very kind and gentle approach to teaching, he acknowledged my fear in the water and personalised technigues that helped me relax in the water and become confident in my abilities.</p>
+
+                        <p>Thanks to Iain I am now confident in the water and absolutely love swimming. My confidence and ability has definitely grown to a point where I now really enjoy my time in the gym. I highly recommend Iain as a fitness/swim instructor for somebody wanting to reach their individual goals.</p>
+                        <footer class="blockquote-footer mt-1">Anne, aged 54</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="col-lg-6 card">
+                <div class="card-header">
+                    Fitness Bootcamps
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote">
+                        <p>Iain is a professional well-prepared trainer with natural charisma, a positive outlook and a growth mindset. The product he delivers to me has responded to any challenge and consistently improved in quality over time.</p>
+
+                        <p>Iain's classes are an excellent fit for me as they are varied and fun. Iain is very professional and is always there early with class equipment set up ready to greet participants as they arrive. He also has good session plans made but is comfortable to adapt if an extra person turns up or if somebody joins in late.</p>
+                        <footer class="blockquote-footer mt-1">Brendan, aged 44</footer>
+                    </blockquote>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Bootstrap Accordian FAQs -->
-    <div class="accordion px-4" id="accordionExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    When are the bootcamps on?
-                </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>The bootcamps are on every Monday & Wednesday evening at 7:30pm.</strong> The group fitness bootcamps are always open to new joiners, just show up or contact Iain on 085 7681964.
+    <div class="container mt-4">
+        <h3>Frequently Asked Questions</h3>
+        <p class="lead">Find the most common questions and answers about Iain.</p>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        When are the bootcamps on?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>The bootcamps are on every Monday & Wednesday evening at 7:30pm.</strong> The group fitness bootcamps are always open to new joiners, just show up or contact Iain on <a href="tel:0857681964" target="_blank" title="Call Iain"> 085 7681964</a>.
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    How much is it for one bootcamp?
-                </button>
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>The cost of one bootcamp is €7.</strong> Iain holds raffles every now and again on his Instagram profile to giveaway free passes for bootcamps. Make sure you're following him here.
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How much is it for one bootcamp?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>The cost of one bootcamp is €7.</strong> Iain holds raffles regularly on his Instagram profile to give away free passes for his fitness bootcamps. Make sure you're following him <a href="https://www.instagram.com/hurtonsfitness/?hl=en" target="_blank" title="Message Iain on Instagram"> here</a>.
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    How difficult are the bootcamps?
-                </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>The bootcamps are tailored to each individual.</strong> Everyone can choose a weight that suits them with the multiple kettlebells and dumbbells to choose from.
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        How difficult are the bootcamps?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>The bootcamps are tailored to each individual.</strong> Everyone can choose a weight that suits them with the multiple kettlebells and dumbbells to choose from.
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Can anyone join the bootcamps?
-                </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>Yes! New joiners are always welcome.</strong> Exercising in a group environment is a great way to stay motivated and to push your limits.
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Can anyone join the bootcamps?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Yes! New joiners are always welcome.</strong> Exercising in a group environment is a great way to stay motivated and to push your limits.
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFour">
-                    Are the bootcamps taking place outside?
-                </button>
-            </h2>
-            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>Yes! The bootcamps are outside under a covering structure.</strong> Castletroy Neighbourhood Park has an area with a roof providing shelter from the rain. That being said, Iain likes to use the grass area during the summer months when the ground is dry and the sun is shining.
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFour">
+                        Are the bootcamps taking place outside?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Yes! The bootcamps are outside under a covering structure.</strong> <a href="https://www.google.com/maps/place/Hurton+Fitness/@52.6622967,-8.5418636,17z/data=!3m1!4b1!4m5!3m4!1s0x485b5f1cb383d19b:0x64df96ffa7534356!8m2!3d52.6622935!4d-8.5396749" target="_blank" title="View Location on Maps">Castletroy Neighbourhood Park</a> has an area with a roof providing shelter from the rain. That being said, Iain likes to use the grass area during the summer months when the ground is dry and the sun is shining.
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSix">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseFour">
-                    Is there spaces available for personal training?
-                </button>
-            </h2>
-            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <strong>Yes! Iain currently has space for individuals interesting in personal training sessions.</strong> 1 on 1 personal training sessions can be organised for a time that suits you. All training plans are tailored to the needs of the individual.
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseFour">
+                        Is there spaces available for personal training?
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Yes! Iain currently has space for individuals interesting in personal training sessions.</strong> 1 on 1 personal training sessions can be organised for a time that suits you. All training plans are tailored to the needs of the individual.
+                    </div>
                 </div>
             </div>
         </div>
@@ -161,10 +221,12 @@
                 <li class="nav-item"><a href="/contact.html" class="nav-link px-2 text-muted">Contact</a></li>
                 <li class="nav-item"><a href="/gallery.html" class="nav-link px-2 text-muted">Gallery</a></li>
                 <li class="nav-item"><a href="/events.html" class="nav-link px-2 text-muted">Events</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                <li class="nav-item"><a href="faw.html" class="nav-link px-2 text-muted">FAQs</a></li>
             </ul>
         </footer>
     </div>
 </body>
+
+<script src="/script.js"></script>
 
 </html>
