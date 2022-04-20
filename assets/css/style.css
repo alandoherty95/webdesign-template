@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@1&family=Bungee+Outline&display=swap');
 
 * {
     margin: 0;
@@ -40,4 +41,13 @@ mark {
 
 .btn {
     margin: 0.5em;
+}
+
+.quote-text {
+    font-family: 'Arapey', serif;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #FFD700;
 }
