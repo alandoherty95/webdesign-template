@@ -7,7 +7,7 @@
 }
 
 hr {
-    height: 0.01;
+    height: 0.1px;
     background-color: #FFD700;
     border: none;
 }
